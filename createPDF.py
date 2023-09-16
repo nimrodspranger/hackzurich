@@ -3,23 +3,6 @@ from PyPDF2 import PdfWriter, PdfReader
 import io
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
-def test(location, reference, destination):
-    shutil.copyfile(location, destination)
-    # create a new PDF file
-    #pdf = Canvas(destination)
-
-    # add some text
-    #pdf.drawString(100, 750, "Welcome to ReportLab!")
-
-    # save the PDF file
-    #pdf.save()
-def test2(location, reference, destination):
-    reader = PdfReader(location)
-    number_of_pages = len(reader.pages)
-    page = reader.pages[0]
-    text = page.extract_text()
-    print(text)
-
 def createPDF(location, json, destination):
     packet = io.BytesIO()
     # Create a new PDF with Reportlab
