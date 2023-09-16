@@ -28,14 +28,28 @@ def createPDF(location, json, destination):
     for k in json.keys():
         if (k == "policyNumber"):
             writeBox(can=can, fontSize=14, str=json[k], x=102, y=98, width=100,height=400,length=200)
-        elif (k == "annual"):
+        elif (k == "address0"):
+            writeBox(can=can, fontSize=10, str=json[k], x=48, y=151, width=100, height=400, length=100)
+        elif (k == "address1"):
+            writeBox(can=can, fontSize=10, str=json[k], x=48, y=162, width=100, height=400, length=100)
+        elif (k == "address2"):
+            writeBox(can=can, fontSize=10, str=json[k], x=48, y=173, width=100, height=400, length=100)
+        elif (k == "address3"):
+            writeBox(can=can, fontSize=10, str=json[k], x=48, y=184, width=100, height=400, length=100)
+        elif (k == "content"):
             writeBox(can=can, fontSize=10, str=json[k], x=530, y=410, width=100, height=400, length=60)
         elif (k == "personal"):
             writeBox(can=can, fontSize=10, str=json[k], x=530, y=421, width=100, height=400, length=60)
-        elif (k == "content"):
+        elif (k == "annual"):
             writeBox(can=can, fontSize=10, str=json[k], x=530, y=432, width=100, height=400, length=60)
         elif (k == "total"):
             writeBox(can=can, fontSize=10, str=json[k], x=530, y=465, width=100, height=400, length=60)
+        elif (k == "date"):
+            writeBox(can=can, fontSize=10, str=json[k], x=155, y=311, width=100, height=400, length=60)
+        elif (k == "startdate"):
+            writeBox(can=can, fontSize=10, str=json[k], x=155, y=343, width=100, height=400, length=60)
+        elif (k == "enddate"):
+            writeBox(can=can, fontSize=10, str=json[k], x=155, y=354, width=100, height=400, length=60)
         else:
             print("not recognised: " + str(k))
     can.showPage()
@@ -70,10 +84,18 @@ def getPdf(json):
 def testModification():
     json = {}
     json["policyNumber"] = "0123456789"
-    json["annual"] = "50"
+    json["address0"] = "Mrs."
+    json["address1"] = "Helen Hinderway"
+    json["address2"] = "Hindenstr."
+    json["address3"] = "70203 Zurich"
+    json["content"] = "30"
+    json["content"] = "50"
     json["personal"] = "60"
-    json["content"] = "70"
+    json["annual"] = "70"
     json["total"] = "180"
+    json["date"] = "17.09.2023"
+    json["startdate"] = "17.09.2023"
+    json["enddate"] = "16.09.2024"
     getPdf(json)
 if __name__ == "__main__":
     testModification()
