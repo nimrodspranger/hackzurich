@@ -3,7 +3,7 @@ import glob
 import speech_recognition as sr
 
 def get_latest_audio_file(folder_path):
-    list_of_files = glob.glob(os.path.join(folder_path, "*.mp3"))  # Use "*.wav" if your files are not in mp3 format
+    list_of_files = glob.glob(os.path.join(folder_path, "*.wav"))  # Use "*.wav" if your files are not in mp3 format
     if not list_of_files:
         return None
     latest_file = max(list_of_files, key=os.path.getctime)
