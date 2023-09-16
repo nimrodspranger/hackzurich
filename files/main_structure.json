@@ -1,0 +1,2913 @@
+[{
+        "id": 1,
+        "cpi": "root",
+        "name": "",
+        "objs": []
+    }, {
+        "id": 2,
+        "cpi": "root-2",
+        "name": "1",
+        "parent": 1,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCSITE"
+            }, {
+                "name": "Author",
+                "type": "string",
+                "value": ""
+            }, {
+                "name": "Project Issue Date",
+                "type": "string",
+                "value": "Issue Date"
+            }, {
+                "name": "Project Status",
+                "type": "string",
+                "value": "Project Status"
+            }, {
+                "name": "Client Name",
+                "type": "string",
+                "value": "Owner"
+            }, {
+                "name": "Project Address",
+                "type": "string",
+                "value": "Enter address here"
+            }, {
+                "name": "Project Name",
+                "type": "string",
+                "value": "BüroCenter"
+            }, {
+                "name": "Project Number",
+                "type": "string",
+                "value": "952008"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 3,
+        "cpi": "root-2-3",
+        "name": "1",
+        "parent": 2,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCBUILDING"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 4,
+        "cpi": "RVTID:311",
+        "name": "Erdgeschoss",
+        "parent": 3,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "Display/Is ground plane",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Name",
+                "type": "string",
+                "value": "Erdgeschoss"
+            }, {
+                "name": "Identity Data/Structural",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Building Story",
+                "type": "int",
+                "value": "1"
+            }, {
+                "name": "Constraints/Elevation",
+                "type": "float",
+                "value": "0.000000"
+            }, {
+                "name": "Dimensions/Computation Height",
+                "type": "float",
+                "value": "1.200000"
+            }, {
+                "name": "UNIQUE_ID",
+                "type": "string",
+                "value": "e3e052f9-0156-11d5-9301-0000863f27ad-00000137"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCBUILDINGSTOREY"
+            }, {
+                "name": "persistentId",
+                "type": "string",
+                "value": "311"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 5,
+        "cpi": "RVTID:694",
+        "name": "1. Obergeschoss",
+        "parent": 3,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "Display/Is ground plane",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Name",
+                "type": "string",
+                "value": "1. Obergeschoss"
+            }, {
+                "name": "Identity Data/Structural",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Building Story",
+                "type": "int",
+                "value": "1"
+            }, {
+                "name": "Constraints/Elevation",
+                "type": "float",
+                "value": "3.200000"
+            }, {
+                "name": "Dimensions/Computation Height",
+                "type": "float",
+                "value": "1.200000"
+            }, {
+                "name": "UNIQUE_ID",
+                "type": "string",
+                "value": "458c0e49-01bb-11d5-9302-0000863f27ad-000002b6"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCBUILDINGSTOREY"
+            }, {
+                "name": "persistentId",
+                "type": "string",
+                "value": "694"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 6,
+        "cpi": "RVTID:108027",
+        "name": "2. Obergeschoss",
+        "parent": 3,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "Display/Is ground plane",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Name",
+                "type": "string",
+                "value": "2. Obergeschoss"
+            }, {
+                "name": "Identity Data/Structural",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Building Story",
+                "type": "int",
+                "value": "1"
+            }, {
+                "name": "Constraints/Elevation",
+                "type": "float",
+                "value": "6.100000"
+            }, {
+                "name": "Dimensions/Computation Height",
+                "type": "float",
+                "value": "1.200000"
+            }, {
+                "name": "UNIQUE_ID",
+                "type": "string",
+                "value": "c7225d33-b5f2-4488-bb5b-8f5bc98a5fa7-0001a5fb"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCBUILDINGSTOREY"
+            }, {
+                "name": "persistentId",
+                "type": "string",
+                "value": "108027"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 7,
+        "cpi": "RVTID:108837",
+        "name": "3. Obergeschoss",
+        "parent": 3,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "Display/Is ground plane",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Name",
+                "type": "string",
+                "value": "3. Obergeschoss"
+            }, {
+                "name": "Identity Data/Structural",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Building Story",
+                "type": "int",
+                "value": "1"
+            }, {
+                "name": "Constraints/Elevation",
+                "type": "float",
+                "value": "9.000000"
+            }, {
+                "name": "Dimensions/Computation Height",
+                "type": "float",
+                "value": "1.200000"
+            }, {
+                "name": "UNIQUE_ID",
+                "type": "string",
+                "value": "c7225d33-b5f2-4488-bb5b-8f5bc98a5fa7-0001a925"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCBUILDINGSTOREY"
+            }, {
+                "name": "persistentId",
+                "type": "string",
+                "value": "108837"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 8,
+        "cpi": "RVTID:108837-8",
+        "name": "Columns",
+        "parent": 7,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 9,
+        "cpi": "RVTID:108837-8-9",
+        "name": "M_Rectangular Column",
+        "parent": 8,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }
+        ],
+        "objs": [{
+                "id": 10,
+                "cpi": "RVTID:151209:1",
+                "name": "Stütze 200x200mm",
+                "material": "m0",
+                "color": 16250871,
+                "transparency": 0.0,
+                "mesh": 1,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 2.0
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.096
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "-2.258753920166438603e-18 2.258753920166438603e-18 10.40000009536743164"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "RelativeTransfo",
+                        "type": "string",
+                        "value": "1 0 -0 0 -0 1 0 0 0 0 1 0 7.650034650242878875 -12.81838840231597132 -9.000000000000211386 1"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "93d44c24-9d0f-4510-a828-e9595b7446a4-00024ea9"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Columns"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "M_Rectangular Column : Stütze 200x200mm"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.300000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Level",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Base Level",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Level",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Moves With Grids",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "151209"
+                    }
+                ]
+            }, {
+                "id": 11,
+                "cpi": "RVTID:151222:2",
+                "name": "Stütze 200x200mm",
+                "material": "m0",
+                "color": 16250871,
+                "transparency": 0.0,
+                "mesh": 2,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 2.0
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.096
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "-2.258753920166438603e-18 2.258753920166438603e-18 10.40000009536743164"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "RelativeTransfo",
+                        "type": "string",
+                        "value": "1 0 -0 0 -0 1 0 0 0 0 1 0 10.15003465024287621 -12.81838840231598908 -9.000000000000211386 1"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "93d44c24-9d0f-4510-a828-e9595b7446a4-00024eb6"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Columns"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "M_Rectangular Column : Stütze 200x200mm"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.300000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Level",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Base Level",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Level",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Moves With Grids",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "151222"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "id": 12,
+        "cpi": "RVTID:108837-14",
+        "name": "Structural Framing",
+        "parent": 7,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 13,
+        "cpi": "RVTID:108837-14-15",
+        "name": "M_Concrete-Rectangular Beam",
+        "parent": 12,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }
+        ],
+        "objs": [{
+                "id": 14,
+                "cpi": "RVTID:234467:3",
+                "name": "Unterzug 300x200mm",
+                "material": "m0",
+                "color": 16250871,
+                "transparency": 0.0,
+                "mesh": 3,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 10.32
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.612
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "0 0 0"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "RelativeTransfo",
+                        "type": "string",
+                        "value": "-1.592451660732930439e-15 -1 -2.123268880977240585e-16 0 1 -1.592451660732930439e-15 0 0 -3.381203055694757461e-31 -2.123268880977240585e-16 1 0 7.650034650242885981 -7.746684718241154677 2.750000000000004885 1"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "5237e561-cd7d-458b-baa6-4c9fd7845c44-000393e3"
+                    }, {
+                        "name": "Geometric Position/Join Status",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Geometric Position/z Offset Value",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Geometric Position/z Justification",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Geometric Position/y Offset Value",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Geometric Position/y Justification",
+                        "type": "int",
+                        "value": "2"
+                    }, {
+                        "name": "Geometric Position/yz Justification",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Geometric Position/End Extension",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Geometric Position/Start Extension",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Structural Framing"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "M_Concrete-Rectangular Beam : Unterzug 300x200mm"
+                    }, {
+                        "name": "Structural/Rebar Cover - Bottom Face",
+                        "type": "string",
+                        "value": "Rebar Cover Settings : Rebar Cover 1"
+                    }, {
+                        "name": "Structural/Rebar Cover - Top Face",
+                        "type": "string",
+                        "value": "Rebar Cover Settings : Rebar Cover 1"
+                    }, {
+                        "name": "Structural/Rebar Cover - Other Faces",
+                        "type": "string",
+                        "value": "Rebar Cover Settings : Rebar Cover 1"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Structural/Cut Length",
+                        "type": "float",
+                        "value": "10.200000"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "6"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Materials and Finishes/Structural Material",
+                        "type": "string",
+                        "value": "Metal - Steel"
+                    }, {
+                        "name": "Constraints/Reference Level Elevation",
+                        "type": "float",
+                        "value": "9.000000"
+                    }, {
+                        "name": "Constraints/Cross-Section Rotation",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/End Level Offset",
+                        "type": "float",
+                        "value": "2.600000"
+                    }, {
+                        "name": "Constraints/Start Level Offset",
+                        "type": "float",
+                        "value": "2.600000"
+                    }, {
+                        "name": "Constraints/Reference Level",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Dimensions/Elevation at Top",
+                        "type": "float",
+                        "value": "11.900000"
+                    }, {
+                        "name": "Dimensions/Elevation at Bottom",
+                        "type": "float",
+                        "value": "11.600000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "10.200000"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "234467"
+                    }
+                ]
+            }, {
+                "id": 15,
+                "cpi": "RVTID:234592:4",
+                "name": "Unterzug 300x200mm",
+                "material": "m0",
+                "color": 16250871,
+                "transparency": 0.0,
+                "mesh": 4,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 10.32
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.612
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "0 0 0"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "RelativeTransfo",
+                        "type": "string",
+                        "value": "-1.592451660732930439e-15 -1 -2.123268880977240585e-16 0 1 -1.592451660732930439e-15 0 0 -3.381203055694757461e-31 -2.123268880977240585e-16 1 0 10.15003465024288509 -7.746684718241163559 2.750000000000004885 1"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "5237e561-cd7d-458b-baa6-4c9fd7845c44-00039460"
+                    }, {
+                        "name": "Geometric Position/Join Status",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Geometric Position/z Offset Value",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Geometric Position/z Justification",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Geometric Position/y Offset Value",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Geometric Position/y Justification",
+                        "type": "int",
+                        "value": "2"
+                    }, {
+                        "name": "Geometric Position/yz Justification",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Geometric Position/End Extension",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Geometric Position/Start Extension",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Structural Framing"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "M_Concrete-Rectangular Beam : Unterzug 300x200mm"
+                    }, {
+                        "name": "Structural/Rebar Cover - Bottom Face",
+                        "type": "string",
+                        "value": "Rebar Cover Settings : Rebar Cover 1"
+                    }, {
+                        "name": "Structural/Rebar Cover - Top Face",
+                        "type": "string",
+                        "value": "Rebar Cover Settings : Rebar Cover 1"
+                    }, {
+                        "name": "Structural/Rebar Cover - Other Faces",
+                        "type": "string",
+                        "value": "Rebar Cover Settings : Rebar Cover 1"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Structural/Cut Length",
+                        "type": "float",
+                        "value": "10.200000"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "6"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Materials and Finishes/Structural Material",
+                        "type": "string",
+                        "value": "Metal - Steel"
+                    }, {
+                        "name": "Constraints/Reference Level Elevation",
+                        "type": "float",
+                        "value": "9.000000"
+                    }, {
+                        "name": "Constraints/Cross-Section Rotation",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/End Level Offset",
+                        "type": "float",
+                        "value": "2.600000"
+                    }, {
+                        "name": "Constraints/Start Level Offset",
+                        "type": "float",
+                        "value": "2.600000"
+                    }, {
+                        "name": "Constraints/Reference Level",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Dimensions/Elevation at Top",
+                        "type": "float",
+                        "value": "11.900000"
+                    }, {
+                        "name": "Dimensions/Elevation at Bottom",
+                        "type": "float",
+                        "value": "11.600000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "10.200000"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "234592"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "id": 16,
+        "cpi": "RVTID:108837-20",
+        "name": "Walls",
+        "parent": 7,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 17,
+        "cpi": "RVTID:108837-20-21",
+        "name": "Basic Wall",
+        "parent": 16,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }
+        ],
+        "objs": [{
+                "id": 18,
+                "cpi": "RVTID:315953:5",
+                "name": "Kalksandsteinwand 240mm",
+                "material": "m1",
+                "color": 16250871,
+                "transparency": 0.0,
+                "mesh": 5,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 44.406424
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 4.750949
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "7.770034551620483398 -9.042536497116088867 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d231"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Kalksandsteinwand 240mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "4"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "4.750944"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "19.795600"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "7.244204"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315953"
+                    }
+                ]
+            }, {
+                "id": 19,
+                "cpi": "RVTID:315963:6",
+                "name": "Gipskartonwand 75mm",
+                "material": "m2",
+                "color": 16777215,
+                "transparency": 0.0,
+                "mesh": 6,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 11.449506
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.402979
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "10.78253459930419922 -8.651684761047363281 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d23b"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Gipskartonwand 75mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.402975"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "5.373000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "2.207500"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315963"
+                    }
+                ]
+            }, {
+                "id": 20,
+                "cpi": "RVTID:315964:7",
+                "name": "Gipskartonwand 75mm",
+                "material": "m2",
+                "color": 16777215,
+                "transparency": 0.0,
+                "mesh": 7,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 11.449506
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.402979
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "10.78253459930419922 -6.546684741973876953 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d23c"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Gipskartonwand 75mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.402975"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "5.373000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "2.125000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315964"
+                    }
+                ]
+            }, {
+                "id": 21,
+                "cpi": "RVTID:315967:8",
+                "name": "Gipskartonwand 75mm",
+                "material": "m2",
+                "color": 16777215,
+                "transparency": 0.0,
+                "mesh": 8,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 9.131682
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.318405
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "8.676222324371337891 -6.544184684753417969 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d23f"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Gipskartonwand 75mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.318406"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "4.245413"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "1.729875"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315967"
+                    }
+                ]
+            }, {
+                "id": 22,
+                "cpi": "RVTID:315968:9",
+                "name": "Gipskartonwand 75mm",
+                "material": "m2",
+                "color": 16777215,
+                "transparency": 0.0,
+                "mesh": 9,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 11.449497
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.402974
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "9.499909877777099609 -6.546684741973876953 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d240"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Gipskartonwand 75mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.402975"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "5.373000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "2.135000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315968"
+                    }
+                ]
+            }, {
+                "id": 23,
+                "cpi": "RVTID:315973:10",
+                "name": "GK Vorsatzschale 175 mm",
+                "mesh": 10,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 3.514001
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.2352
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "7.977534770965576172 -7.061684608459472656 0.9000000134110450745"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d245"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : GK Vorsatzschale 175 mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "1.400000"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.235200"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "1.344000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "1.055000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315973"
+                    }
+                ]
+            }, {
+                "id": 24,
+                "cpi": "RVTID:315976:11",
+                "name": "GK Vorsatzschale 175 mm",
+                "mesh": 11,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 3.498251
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.233975
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "7.977534770965576172 -6.029184818267822266 0.9000000134110450745"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d248"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : GK Vorsatzschale 175 mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "1.400000"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.233975"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "1.337000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "1.080000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315976"
+                    }
+                ]
+            }, {
+                "id": 25,
+                "cpi": "RVTID:315978:12",
+                "name": "Gipskartonwand 75mm",
+                "material": "m2",
+                "color": 16777215,
+                "transparency": 0.0,
+                "mesh": 12,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 9.131682
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.318405
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "8.676222324371337891 -8.609184741973876953 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d24a"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Gipskartonwand 75mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.318406"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "4.245413"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "1.729875"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315978"
+                    }
+                ]
+            }, {
+                "id": 26,
+                "cpi": "RVTID:315979:13",
+                "name": "Gipskartonwand 75mm",
+                "material": "m2",
+                "color": 16777215,
+                "transparency": 0.0,
+                "mesh": 13,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 6.371248
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.217687
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "9.499909877777099609 -9.109184741973876953 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d24b"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Gipskartonwand 75mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "-0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.217687"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "2.902500"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "1.125000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315979"
+                    }
+                ]
+            }, {
+                "id": 27,
+                "cpi": "RVTID:315984:14",
+                "name": "Betonwand 200mm",
+                "material": "m4",
+                "color": 12632256,
+                "transparency": 0.0,
+                "mesh": 14,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 14.709995
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 1.268999
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "11.32503461837768555 -13.04168462753295898 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d250"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Betonwand 200mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "1.269000"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "6.345000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "2.350000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315984"
+                    }
+                ]
+            }, {
+                "id": 28,
+                "cpi": "RVTID:315985:15",
+                "name": "Betonwand 300mm",
+                "material": "m5",
+                "color": 12632256,
+                "transparency": 0.0,
+                "mesh": 15,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 19.990225
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 2.479982
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "10.25003480911254883 -11.1775364875793457 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d251"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Betonwand 300mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "2.479980"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "8.266600"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "2.974204"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315985"
+                    }
+                ]
+            }, {
+                "id": 29,
+                "cpi": "RVTID:315986:16",
+                "name": "Kalksandsteinwand 175mm",
+                "material": "m1",
+                "color": 16250871,
+                "transparency": 0.0,
+                "mesh": 16,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 13.652503
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 1.044226
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "8.995034694671630859 -9.734184741973876953 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d252"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Kalksandsteinwand 175mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "1.044225"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "5.967000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "2.480000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315986"
+                    }
+                ]
+            }, {
+                "id": 30,
+                "cpi": "RVTID:315987:17",
+                "name": "Betonwand 300mm",
+                "material": "m5",
+                "color": 12632256,
+                "transparency": 0.0,
+                "mesh": 17,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 14.219999
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 1.701001
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "11.45003461837768555 -9.796684741973876953 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004d253"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Betonwand 300mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "1.701000"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "5.670000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "2.250000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "315987"
+                    }
+                ]
+            }, {
+                "id": 31,
+                "cpi": "RVTID:319119:18",
+                "name": "Kalksandsteinwand 175mm",
+                "material": "m1",
+                "color": 16250871,
+                "transparency": 0.0,
+                "mesh": 18,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 27.452502
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 2.178227
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "10.19503450393676758 -5.464184761047363281 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004de8f"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Kalksandsteinwand 175mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "2.178225"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "12.447000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "4.730000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "319119"
+                    }
+                ]
+            }, {
+                "id": 32,
+                "cpi": "RVTID:319238:19",
+                "name": "Kalksandsteinwand 115mm",
+                "mesh": 19,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 26.575303
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 1.431408
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "10.19503450393676758 -7.599184751510620117 1.55000004917383194"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "78f88c68-c7fd-43a2-9929-5bd237707ada-0004df06"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : Kalksandsteinwand 115mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "2.700000"
+                    }, {
+                        "name": "Constraints/Top Constraint",
+                        "type": "string",
+                        "value": "4. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "1.431405"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "12.447000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "4.522500"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "319238"
+                    }
+                ]
+            }, {
+                "id": 33,
+                "cpi": "RVTID:320012:20",
+                "name": "GK Vorsatzschale 175 mm",
+                "mesh": 20,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 3.372251
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.224175
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "7.977534770965576172 -8.114184856414794922 0.9000000134110450745"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "3c2ca058-2d91-4ed2-99b6-9cc54f73cfd7-0004e20c"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : GK Vorsatzschale 175 mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "1.400000"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.224175"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "1.281000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "1.010000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "320012"
+                    }
+                ]
+            }, {
+                "id": 34,
+                "cpi": "RVTID:320182:21",
+                "name": "GK Vorsatzschale 175 mm",
+                "mesh": 21,
+                "props": [{
+                        "name": "Surface",
+                        "type": "double",
+                        "value": 3.640001
+                    }, {
+                        "name": "Volume",
+                        "type": "double",
+                        "value": 0.245
+                    }, {
+                        "name": "CenterOfGravity",
+                        "type": "string",
+                        "value": "7.977534770965576172 -9.146684646606445312 0.9000000134110450745"
+                    }, {
+                        "name": "Style",
+                        "type": "int32",
+                        "value": "65535"
+                    }, {
+                        "name": "UNIQUE_ID",
+                        "type": "string",
+                        "value": "3c2ca058-2d91-4ed2-99b6-9cc54f73cfd7-0004e2b6"
+                    }, {
+                        "name": "Other/Category",
+                        "type": "string",
+                        "value": "Walls"
+                    }, {
+                        "name": "Other/Family and Type",
+                        "type": "string",
+                        "value": "Basic Wall : GK Vorsatzschale 175 mm"
+                    }, {
+                        "name": "Cross-Section Definition/Cross-Section",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Constraints/Base Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Top Extension Distance",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Related to Mass",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Location Line",
+                        "type": "int",
+                        "value": "3"
+                    }, {
+                        "name": "Constraints/Base is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top is Attached",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Constraints/Top Offset",
+                        "type": "float",
+                        "value": "0.000000"
+                    }, {
+                        "name": "Constraints/Base Offset",
+                        "type": "float",
+                        "value": "0.200000"
+                    }, {
+                        "name": "Constraints/Base Constraint",
+                        "type": "string",
+                        "value": "3. Obergeschoss (OdBmLevel)"
+                    }, {
+                        "name": "Constraints/Unconnected Height",
+                        "type": "float",
+                        "value": "1.400000"
+                    }, {
+                        "name": "Constraints/Room Bounding",
+                        "type": "int",
+                        "value": "1"
+                    }, {
+                        "name": "Dimensions/Volume",
+                        "type": "float",
+                        "value": "0.245000"
+                    }, {
+                        "name": "Dimensions/Area",
+                        "type": "float",
+                        "value": "1.400000"
+                    }, {
+                        "name": "Dimensions/Length",
+                        "type": "float",
+                        "value": "1.125000"
+                    }, {
+                        "name": "Phasing/Phase Created",
+                        "type": "string",
+                        "value": "New Construction (OdBmProjectPhase)"
+                    }, {
+                        "name": "Structural/Structural",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Enable Analytical Model",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "Structural/Structural Usage",
+                        "type": "int",
+                        "value": "0"
+                    }, {
+                        "name": "persistentId",
+                        "type": "string",
+                        "value": "320182"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "id": 35,
+        "cpi": "RVTID:110760",
+        "name": "4. Obergeschoss",
+        "parent": 3,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "Display/Is ground plane",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Name",
+                "type": "string",
+                "value": "4. Obergeschoss"
+            }, {
+                "name": "Identity Data/Structural",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Building Story",
+                "type": "int",
+                "value": "1"
+            }, {
+                "name": "Constraints/Elevation",
+                "type": "float",
+                "value": "11.900000"
+            }, {
+                "name": "Dimensions/Computation Height",
+                "type": "float",
+                "value": "0.000000"
+            }, {
+                "name": "UNIQUE_ID",
+                "type": "string",
+                "value": "c7225d33-b5f2-4488-bb5b-8f5bc98a5fa7-0001b0a8"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCBUILDINGSTOREY"
+            }, {
+                "name": "persistentId",
+                "type": "string",
+                "value": "110760"
+            }
+        ],
+        "objs": []
+    }, {
+        "id": 36,
+        "cpi": "RVTID:363940",
+        "name": "Untergeschoss",
+        "parent": 3,
+        "props": [{
+                "name": "Style",
+                "type": "Int32",
+                "value": "65535"
+            }, {
+                "name": "Display/Is ground plane",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Name",
+                "type": "string",
+                "value": "Untergeschoss"
+            }, {
+                "name": "Identity Data/Structural",
+                "type": "int",
+                "value": "0"
+            }, {
+                "name": "Identity Data/Building Story",
+                "type": "int",
+                "value": "1"
+            }, {
+                "name": "Constraints/Elevation",
+                "type": "float",
+                "value": "-2.000000"
+            }, {
+                "name": "Dimensions/Computation Height",
+                "type": "float",
+                "value": "0.000000"
+            }, {
+                "name": "UNIQUE_ID",
+                "type": "string",
+                "value": "411bcf13-2a12-4442-91de-428365d6e1ac-00058da4"
+            }, {
+                "name": "TYPE",
+                "type": "string",
+                "value": "IFCBUILDINGSTOREY"
+            }, {
+                "name": "persistentId",
+                "type": "string",
+                "value": "363940"
+            }
+        ],
+        "objs": []
+    }
+]
