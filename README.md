@@ -1,4 +1,4 @@
-# GenZure
+# GenZure - Project Story
 
 Say it. See it. Secure it.
 
