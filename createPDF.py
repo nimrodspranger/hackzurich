@@ -1,8 +1,8 @@
-import shutil
 from PyPDF2 import PdfWriter, PdfReader
 import io
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
+import json
 def createPDF(location, json, destination):
     packet = io.BytesIO()
     # Create a new PDF with Reportlab
@@ -42,9 +42,6 @@ def createPDF(location, json, destination):
     new_pdf = PdfReader(packet)
     # Read your existing PDF
     existing_pdf = PdfReader(open(location, "rb"))
-    print("height and width")
-    print(existing_pdf.pages[0].mediabox.height)
-    print(existing_pdf.pages[0].mediabox.width)
     output = PdfWriter()
     # Add the "watermark" (which is the new pdf) on the existing page
     page = existing_pdf.pages[0]
@@ -62,23 +59,49 @@ def writeBox(can, fontSize, str, x, y, width, height, length):
     can.setStrokeColor("black")
     can.setFillColor("black")
     can.drawString(x, 841.9 - y - fontSize, str)
-def getPdf(json):
-    createPDF("files/Household insurance Minimum incl PI.pdf", json, "output.pdf")
+def getPdf(jsonFile):
+    personalCostInsurance = 0
+    for item in jsonFile["StartupAssets"]:
+        if item["Category"] == "Furniture":
+            personalCostInsurance += 1
+        elif item["Category"] == "Electronics":
+            personalCostInsurance += 2
+        elif item["Category"] == "Networking Equipment":
+            personalCostInsurance += 1
+        elif item["Category"] == "Security":
+            personalCostInsurance += 1
+        elif item["Category"] == "Office Supplies":
+            personalCostInsurance += 1
+        elif item["Category"] == "Furniture":
+            personalCostInsurance += 3
+        elif item["Category"] == "Appliances":
+            personalCostInsurance += 2
+    jsonFile["personal"] = str(personalCostInsurance)
+    jsonFile["total"] = str(personalCostInsurance + int(jsonFile["annual"]) + int(jsonFile["content"]))
+    createPDF("files/Household insurance Minimum incl PI.pdf", jsonFile, "output.pdf")
 def testModification():
-    json = {}
-    json["policyNumber"] = "0123456789"
-    json["address0"] = "Mrs."
-    json["address1"] = "Helen Hinderway"
-    json["address2"] = "Hindenstr."
-    json["address3"] = "70203 Zurich"
-    json["content"] = "30"
-    json["content"] = "50"
-    json["personal"] = "60"
-    json["annual"] = "70"
-    json["total"] = "180"
-    json["date"] = "17.09.2023"
-    json["startdate"] = "17.09.2023"
-    json["enddate"] = "16.09.2024"
-    getPdf(json)
+    jsonFile = {}
+    jsonFile["policyNumber"] = "0123456789" # can be created automatically
+    jsonFile["address0"] = "Mrs."
+    jsonFile["address1"] = "Helen Hinderway"
+    jsonFile["address2"] = "Hindenstr."
+    jsonFile["address3"] = "70203 Zurich"
+    jsonFile["content"] = "30"
+    jsonFile["annual"] = "70"
+    jsonFile["total"] = "180"
+    jsonFile["date"] = "17.09.2023"
+    jsonFile["startdate"] = "17.09.2023"
+    jsonFile["enddate"] = "16.09.2024"
+    jsonFile["StartupAssets"] = []
+    jsonFile["StartupAssets"].append({"Category":"Furniture", "Item":"Long Table"})
+    jsonFile["StartupAssets"].append({"Category":"Furniture", "Item":"Two Ergonomic Chairs"})
+    jsonFile["StartupAssets"].append({"Category": "Electronics", "Item": "Two Laptops"})
+    jsonFile["StartupAssets"].append({"Category": "Electronics", "Item": "Two External Monitors"})
+    jsonFile["StartupAssets"].append({"Category": "Networking Equipment", "Item": "Server Rack"})
+    jsonFile["StartupAssets"].append({"Category": "Security", "Item": "Lockable Metal Cage"})
+    jsonFile["StartupAssets"].append({"Category": "Office Supplies", "Item": "Whiteboard"})
+    jsonFile["StartupAssets"].append({"Category": "Furniture", "Item": "Filing Cabinet"})
+    jsonFile["StartupAssets"].append({"Category": "Appliances", "Item": "Espresso Machine"})
+    getPdf(jsonFile)
 if __name__ == "__main__":
     testModification()

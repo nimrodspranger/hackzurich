@@ -3,7 +3,7 @@
 Say it. See it. Secure it.
 
 ## Opening
-Hello, everyone! Meet "GenZure," the groundbreaking insurance platform custom-built for startups. Beyond its modular framework, the heart of GenZure pulses with cutting-edge AI, flanked by advanced speech recognition, object matching, stable diffusion, and augmented reality technologies.
+Hello, everyone! Meet "GenZure," the groundbreaking  custom-built insurance product. Beyond its modular framework, the heart of GenZure pulses with cutting-edge AI, flanked by advanced speech recognition, object matching, stable diffusion, and augmented reality technologies.
 
 ## Problem Statement
 Traditional enterprise insurance can be a challenging fit for agile startups. Take Sarah and John: they operate out of a minimalist 40-square-meter space with unique items.

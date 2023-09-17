@@ -1,0 +1,40 @@
+{
+  "StartupAssets": [
+    {
+        "Item": "Long Table",
+        "Category": "Furniture"
+    },
+    {
+        "Item": "Two Ergonomic Chairs",
+        "Category": "Furniture"
+    },
+    {
+        "Item": "Two Laptops",
+        "Category": "Electronics"
+    },
+    {
+        "Item": "Two External Monitors",
+        "Category": "Electronics"
+    },
+    {
+        "Item": "Server Rack",
+        "Category": "Networking Equipment"
+    },
+    {
+        "Item": "Lockable Metal Cage",
+        "Category": "Security"
+    },
+    {
+        "Item": "Whiteboard",
+        "Category": "Office Supplies"
+    },
+    {
+        "Item": "Filing Cabinet",
+        "Category": "Furniture"
+    },
+    {
+        "Item": "Espresso Machine",
+        "Category": "Appliances"
+    }
+  ]
+}
